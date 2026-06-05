@@ -1,0 +1,78 @@
+.searchContainer {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    height: 40px;
+    width: 40%;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 12px;
+  width: 16px;
+  height: 16px;
+}
+
+input {
+    padding-left: 36px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    background: transparent;
+}
+
+input:focus {
+    outline: none;
+}
+
+.resultContainer {
+    position: absolute;
+    top: 100%;
+    z-index: 10;
+    box-sizing: border-box;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border-radius: 8px;
+    overflow: hidden; /* clips the hover bg to border-radius */
+    background: white;
+}
+
+.dropdownItem {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 8px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    cursor: pointer;
+}
+
+.dropdownItem:first-child {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 8px 8px 0 0;
+}
+
+.dropdownItem:last-child {
+    border-radius: 0 0 8px 8px;
+}
+
+.dropdownItem:only-child {
+    border-radius: 8px;
+}
+
+.dropdownItem img {
+    padding-right: 8px;
+}
+
+.dropdownItem:hover {
+    background-color: #ebeae2;
+}

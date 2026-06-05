@@ -1,0 +1,11 @@
+.searchWrapper {
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin: 12px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
