@@ -25,7 +25,6 @@ const Searchbar = ({ onSelect }) => {
         }
         loadTeams()
     }, [])
-
     // filter locally on query change
     useEffect(() => {
         if (!query) return setResults([])
