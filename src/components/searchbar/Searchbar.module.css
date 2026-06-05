@@ -71,6 +71,7 @@ input:focus {
 
 .dropdownItem img {
     padding-right: 8px;
+    background-color: transparent;
 }
 
 .dropdownItem:hover {
