@@ -1,0 +1,40 @@
+.navbarDiv {
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #F8F8F6;
+    background-color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+}
+
+.navbarDiv  span{
+    background-color: #FFFFFF;
+}
+
+.logoFirst {
+    color: #141414;
+    margin-right: 6px;
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.logoSecond {
+    color: #3789DD;
+    margin-right: 16px;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.divider {
+    border: 0.7px solid rgba(0, 0, 0, 0.07);
+    height: 30px;
+    margin-right: 16px;
+}
+
+.demoText {
+    font-weight: 400;
+    font-size: 16px;
+    color: #575757;
+}
