@@ -1,0 +1,43 @@
+.wrapper {
+    min-width: 30%;
+    margin-top: 24px;
+    background-color: #1A3A6E;
+    border-radius: 12px;
+    display: flex;
+    padding: 16px;
+    gap: 20px;
+}
+
+.imgContainer {
+    border-radius: 12px;
+    overflow: hidden;
+    flex-shrink: 0; /* prevents image from squishing */
+}
+
+.imgContainer img{
+    display: block;
+}
+
+.nameContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    width: 100%;
+    background-color: #1A3A6E;
+}
+
+.nameContainer span {
+    background-color: #1A3A6E;
+}
+
+.nameContainer .nameText {
+    font-size: 22px;
+    color: #FFFFFF;
+} 
+
+.nameContainer .descriptionText {
+    font-size: 16px;
+    font-weight: 200;
+    color: #ffffffc2;
+}

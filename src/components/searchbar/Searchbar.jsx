@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 
 const CODES = ["PL", "PD", "BL1", "SA"]
 
-const Searchbar = () => {
+const Searchbar = ({ onSelect }) => {
 
     const [isFocused, setIsFocused] = useState(false)
     const [query, setQuery] = useState("")
@@ -50,7 +50,7 @@ const Searchbar = () => {
             <div className={styles.resultContainer}>
                 {isFocused && results.length > 0 && (
                     results.map(team => (
-                        <button key={team.id} className={styles.dropdownItem}>
+                        <button key={team.id} className={styles.dropdownItem} onClick={() => onSelect(team)}>
                             <img src={team.crest} width={30}/>
                             {team.name}
                         </button>

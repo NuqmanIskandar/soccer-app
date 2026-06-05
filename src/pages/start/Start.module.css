@@ -1,3 +1,10 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .searchWrapper {
     height: auto;
     width: 100%;
